@@ -1,8 +1,46 @@
+target/
+ionic-springboot/target/
+!.mvn/wrapper/maven-wrapper.jar
+
+### STS ###
+.apt_generated
+ionic-springboot/.apt_generated
+.classpath
+ionic-springboot/.classpath
+.factorypath
+ionic-springboot/.factorypath
+.project
+ionic-springboot/.project
+.settings
+ionic-springboot/.settings
+.springBeans
+ionic-springboot/.springBeans
+
+### IntelliJ IDEA ###
+.idea
+ionic-springboot/.idea
+*.iws
+ionic-springboot/*.iws
+*.iml
+ionic-springboot/*.iml
+*.ipr
+ionic-springboot/*.ipr
+
+### NetBeans ###
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
+
 # Compiled class file
 *.class
+ionic-springboot/*.ipr
 
 # Log file
 *.log
+ionic-springboot/*.ipr
 
 # BlueJ files
 *.ctxt
@@ -12,11 +50,17 @@
 
 # Package Files #
 *.jar
+ionic-springboot/*.jar
 *.war
+ionic-springboot/*.war
 *.ear
+ionic-springboot/*.ear
 *.zip
+ionic-springboot/*.zip
 *.tar.gz
+ionic-springboot/*.tar.gz
 *.rar
+ionic-springboot/*.rar
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
