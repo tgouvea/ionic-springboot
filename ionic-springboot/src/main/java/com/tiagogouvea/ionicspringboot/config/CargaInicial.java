@@ -20,10 +20,6 @@ import com.tiagogouvea.ionicspringboot.entity.User;
 import com.tiagogouvea.ionicspringboot.repository.RoleRepository;
 import com.tiagogouvea.ionicspringboot.repository.UserRepository;
 
-/**
- *
- * @author Nataniel Paiva <nataniel.paiva@gmail.com>
- */
 @Component
 public class CargaInicial implements ApplicationListener<ContextRefreshedEvent> {
 
