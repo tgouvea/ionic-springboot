@@ -62,5 +62,32 @@ ionic-springboot/*.tar.gz
 *.rar
 ionic-springboot/*.rar
 
+
+### FRONTEND VS CODE ####
+
+ionicfrontend/*~
+ionicfrontend/*.sw[mnpcod]
+ionicfrontend/*.log
+ionicfrontend/*.tmp
+ionicfrontend/*.tmp.*
+ionicfrontend/log.txt
+ionicfrontend/*.sublime-project
+ionicfrontend/*.sublime-workspace
+ionicfrontend/.vscode/
+ionicfrontend/npm-debug.log*
+
+ionicfrontend/.idea/
+ionicfrontend/.sourcemaps/
+ionicfrontend/.sass-cache/
+ionicfrontend/.tmp/
+ionicfrontend/.versions/
+ionicfrontend/coverage/
+ionicfrontend/dist/
+ionicfrontend/node_modules/
+ionicfrontend/tmp/
+
+
+
+
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
